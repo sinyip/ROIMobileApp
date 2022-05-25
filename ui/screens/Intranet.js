@@ -11,7 +11,7 @@ const Intranet = ({ }) => {
             <Text>UserName : </Text>
             <TextInput placeholder=' Enter UserName/Email '
                 onChangeText={(text) => { this.State({ name: text }) }}
-                style={{ borderWidth: 3, borderColor: 'Navy', margin: 30 }} />
+                style={{ borderWidth: 3, borderColor: 'black', margin: 30 }} />
 
             <Text>Password : </Text>
             <TextInput placeholder='Enter Password'
